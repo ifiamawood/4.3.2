@@ -6,7 +6,7 @@
 
 using namespace cv;
 
-int main()
+int main() 
 {
 	cv::Mat out;
     cv:Mat src = imread("D:\\lena.jpg", 0);
