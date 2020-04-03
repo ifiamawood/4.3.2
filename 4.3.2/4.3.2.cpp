@@ -9,7 +9,7 @@ using namespace cv;
 int main() 
 {
 	cv::Mat out;
-    cv:Mat src = imread("D:\\lena.jpg", 0);
+    cv:Mat src = imread("D:\\lena.jpg", 1);
 	if (src.empty()) return -1;
 	const cv::Point2f pts1[] = { cv::Point2f(150,150),cv::Point2f(150,300),cv::Point2f(350,300),cv::Point2f(350,150) };
 	const cv::Point2f pts2[] = { cv::Point2f(200,150),cv::Point2f(200,300),cv::Point2f(340,270),cv::Point2f(340,180) };
